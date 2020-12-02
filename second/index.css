@@ -1,0 +1,65 @@
+header {
+    border: black solid;
+    border-width: 4px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header h1 {
+    background-color: rgb(146, 27, 146);
+    height: 140px;
+    width: 40px;
+    margin-right: 12px;
+    display: inline-block;
+}
+
+header h2 {
+    background-color: green;
+    height: 185px;
+    width: 375px;
+    margin-left: 12px;
+    margin-right: 12px;
+    display: inline-block;
+}
+
+header h3 {
+    background-color: rgb(129, 129, 218);
+    display: inline-block;
+    height: 185px;
+    width: 185px;
+    margin-left: 12px;
+    border-radius: 50%;
+}
+
+.center-box {
+    width: 100%;
+    border: black dotted 4px;
+    box-sizing: border-box;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+}
+
+.center-box h1 {
+    background-color: beige;
+    height: 185px;
+    width: 100%;
+}
+
+.lower-box {
+    border: black solid 1px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.lower-box p {
+    color: rgb(4, 4, 109);
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+}
